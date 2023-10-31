@@ -1,0 +1,75 @@
+[
+    {
+      "Id": 1,
+      "Image": "https://i.ibb.co/RgrhxGS/Python-01-2.png",
+      "Course_Name": "Introduction to Python Programming",
+      "Details": "Learn the fundamentals of Python programming from scratch.",
+      "Price": "15000",
+      "Credit": "2 hr"
+    },
+    {
+      "Id": 2,
+      "Image": "https://i.ibb.co/ZRjXtVv/programming-background-collage.jpg",
+      "Course_Name": "Web Development with HTML and CSS",
+      "Details": "Build modern websites using HTML and CSS technologies.",
+      "Price": "25000",
+      "Credit": "3 hr"
+    },
+    {
+      "Id": 3,
+      "Image": "https://i.ibb.co/TTLWByY/1-Ly-Zcwu-LWv2-FAr-Oum-Cxobp-A.png",
+      "Course_Name": "JavaScript Fundamentals",
+      "Details": "Master the basics of JavaScript for web development.",
+      "Price": "10000",
+      "Credit": "5 hr"
+    },
+    {
+      "Id": 4,
+      "Image": "https://i.ibb.co/kg9c38R/data-structues-and-algorithms-mob.jpg",
+      "Course_Name": "Data Structures and Algorithms",
+      "Details": "Explore algorithms and data structures for efficient coding.",
+      "Price": "14000",
+      "Credit": "2 hr"
+    },
+    {
+      "Id": 5,
+      "Image": "https://i.ibb.co/BNYzM2H/1652265949718.jpg",
+      "Course_Name": "Mobile App Development with React Native",
+      "Details": "Create cross-platform mobile apps with React Native.",
+      "Price": "17000",
+      "Credit": "4 hr"
+    },
+    {
+      "Id": 6,
+      "Image": "https://i.ibb.co/WyX2Dzs/python-ml-header.png",
+      "Course_Name": "Machine Learning with Python",
+      "Details": "Dive into machine learning using Python and popular libraries.",
+      "Price": "21000",
+      "Credit": "3 hr"
+    },
+    {
+      "Id": 7,
+      "Image": "https://i.ibb.co/j9CHnHV/fullstack.webp",
+      "Course_Name": "Full-Stack Web Development",
+      "Details": "Become a full-stack developer with this comprehensive course.",
+      "Price": "35000",
+      "Credit": "4 hr"
+    },
+    {
+      "Id": 8,
+      "Image": "https://i.ibb.co/PgPJy8V/image-ce.png",
+      "Course_Name": "Cybersecurity Essentials",
+      "Details": "Learn the essentials of cybersecurity and network security.",
+      "Price": "19000",
+      "Credit": "3 hr"
+    },
+    {
+      "Id": 9,
+      "Image": "https://i.ibb.co/XJf1p7D/Dev-Ops-Graphic-1024x477.png",
+      "Course_Name": "DevOps and Continuous Integration",
+      "Details": "Master DevOps practices for continuous integration and delivery.",
+      "Price": "11000",
+      "Credit": "2 hr"
+    }
+  ]
+  
