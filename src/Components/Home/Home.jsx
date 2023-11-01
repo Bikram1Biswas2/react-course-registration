@@ -20,7 +20,13 @@ const Home = () => {
 
 
     const handleSelectCourse = (course) => {
-        setSelectCourses([...selectCourses, course])
+        const isSelected = selectCourses.find((item) =>item.Id == course.Id);
+        if(isSelected){
+            return alert('Already Selected This Course')
+        } else{
+            setSelectCourses([...selectCourses, course])
+        }
+       
         
     }
     //console.log(selectCourses);

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-key */
 
 
 const Cart = ({selectCourses}) => {
@@ -9,7 +11,9 @@ const Cart = ({selectCourses}) => {
             <h4>Course Name</h4>
             {
                 selectCourses.map((course) =>
-                <li>{course.Course_Name}</li>
+                    <li>
+                        {course.Course_Name}
+                    </li>
                 )
             }
         </div>
