@@ -28,23 +28,22 @@ console.log(allCourses)
                         <div className="card-img">
                           <img className="w-52 h-40" src={course.Image} alt="" />
                         </div>
-                        <h3>{course.Course_Name
-}</h3>
-                        <p><small>
+                        <h3 className="text-lg font-semibold text-center">{course.Course_Name}</h3>
+                        <p className="font-normal text-sm"><small>
                         {course.Details}
                         </small></p>
                         <div className="flex justify-evenly">
-                          <p>$ Price: {course.Price}</p>
-                          <p>Credit:{course.Credit}</p>
+                          <p className="font-medium text-base">$ Price: {course.Price}</p>
+                          <p className="font-medium text-base">Credit:{course.Credit}</p>
                         </div>
-                        <button className="bg-blue-600 text-white rounded w-3/4 my-2 mx-6  ">Select</button>
+                        <button className="bg-blue-600 text-white rounded w-3/4 my-2 mx-6 font-semibold text-lg ">Select</button>
                   </div>
                     ) )
                 }
                       
                   </div>
                       <div className="cart">
-                        <h2>This is Cart</h2>
+                        <h2>Course Name</h2>
                       </div>
 
                 </div>

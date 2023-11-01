@@ -18,7 +18,7 @@
     {
       "Id": 3,
       "Image": "https://i.ibb.co/TTLWByY/1-Ly-Zcwu-LWv2-FAr-Oum-Cxobp-A.png",
-      "Course_Name": "JavaScript Fundamentals",
+      "Course_Name": "Basic JavaScript Fundamentals",
       "Details": "Master the basics of JavaScript for web development.",
       "Price": "10000",
       "Credit": "5 hr"
@@ -58,7 +58,7 @@
     {
       "Id": 8,
       "Image": "https://i.ibb.co/PgPJy8V/image-ce.png",
-      "Course_Name": "Cybersecurity Essentials",
+      "Course_Name": "Learn Cybersecurity Essentials",
       "Details": "Learn the essentials of cybersecurity and network security.",
       "Price": "19000",
       "Credit": "3 hr"
