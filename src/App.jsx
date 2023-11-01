@@ -11,6 +11,8 @@ function App() {
      
      <h1 className='text-5xl text-center mt-6 font-bold'>Course Registration</h1>
    <Home></Home>
+
+  
     
     </>
   )

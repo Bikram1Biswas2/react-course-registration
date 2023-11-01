@@ -8,6 +8,8 @@ import Cart from "./Cart/Cart";
 const Home = () => {
     const [allCourses, setAllCourses] = useState([]);
     const [selectCourses, setSelectCourses] = useState([]);
+    const[remaining, setRemaining]= useState(0);
+    const[totalCredit, setTotalCredit]= useState(0)
 
 
 
@@ -21,25 +23,43 @@ const Home = () => {
 
     const handleSelectCourse = (course) => {
         const isSelected = selectCourses.find((item) =>item.Id == course.Id);
+        
+        let count = course.Credit;
+
+
         if(isSelected){
             return alert('Already Selected This Course')
         } else{
+            selectCourses.forEach((item) => {
+                count = count + item.Credit;
+            })
+           
+            const totalRemaining = 20 - count;
+            
+            if(count > 20){
+                return alert('You reached your Credit hour')
+            }else{
+                setTotalCredit(count);
+            setRemaining(totalRemaining);
+
             setSelectCourses([...selectCourses, course])
+            }
+            
         }
        
         
     }
-    //console.log(selectCourses);
+   
 
 
     return (
         <div>
             <div className="Container">
-                <div className="home-container   mt-12 flex gap-56">
-                    <div className="card-container w-[600px] grid grid-cols-3 gap-x-48 gap-y-10">
+                <div className="home-container   mt-12 flex gap-56 ">
+                    <div className="card-container w-[600px] grid grid-cols-3 gap-x-48 gap-y-10 ">
                         {
                             allCourses.map(course => (
-                                <div key={course.Id} className="card w-60 h-70 border border-lime-500 rounded-xl p-3">
+                                <div key={course.Id} className="card w-60 h-70 border  rounded-xl p-3 bg-slate-100">
                                     <div className="card-img">
                                         <img className="w-52 h-40" src={course.Image} alt="" />
                                     </div>
@@ -49,7 +69,7 @@ const Home = () => {
                                     </small></p>
                                     <div className="flex justify-evenly">
                                         <p className="font-medium text-base">$ Price: {course.Price}</p>
-                                        <p className="font-medium text-base">Credit:{course.Credit}</p>
+                                        <p className="font-medium text-base">Credit:{course.Credit} hr</p>
                                     </div>
                                     <button
                                         onClick={() => handleSelectCourse(course)}
@@ -60,7 +80,7 @@ const Home = () => {
 
                     </div>
                     <div className="cart">
-                       <Cart selectCourses={selectCourses}></Cart>
+                       <Cart selectCourses={selectCourses} remaining={remaining} totalCredit={totalCredit}></Cart>
                     </div>
 
                 </div>

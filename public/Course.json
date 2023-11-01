@@ -5,7 +5,7 @@
       "Course_Name": "Introduction to Python Programming",
       "Details": "Learn the fundamentals of Python programming from scratch.",
       "Price": "15000",
-      "Credit": "2 hr"
+      "Credit": 4 
     },
     {
       "Id": 2,
@@ -13,7 +13,7 @@
       "Course_Name": "Web Development with HTML and CSS",
       "Details": "Build modern websites using HTML and CSS technologies.",
       "Price": "25000",
-      "Credit": "3 hr"
+      "Credit": 3 
     },
     {
       "Id": 3,
@@ -21,7 +21,7 @@
       "Course_Name": "Basic JavaScript Fundamentals",
       "Details": "Master the basics of JavaScript for web development.",
       "Price": "10000",
-      "Credit": "5 hr"
+      "Credit": 5 
     },
     {
       "Id": 4,
@@ -29,7 +29,7 @@
       "Course_Name": "Data Structures and Algorithms",
       "Details": "Explore algorithms and data structures for efficient coding.",
       "Price": "14000",
-      "Credit": "2 hr"
+      "Credit": 2 
     },
     {
       "Id": 5,
@@ -37,7 +37,7 @@
       "Course_Name": "Mobile App Development with React Native",
       "Details": "Create cross-platform mobile apps with React Native.",
       "Price": "17000",
-      "Credit": "4 hr"
+      "Credit": 4 
     },
     {
       "Id": 6,
@@ -45,7 +45,7 @@
       "Course_Name": "Machine Learning with Python",
       "Details": "Dive into machine learning using Python and popular libraries.",
       "Price": "21000",
-      "Credit": "3 hr"
+      "Credit": 3 
     },
     {
       "Id": 7,
@@ -53,7 +53,7 @@
       "Course_Name": "Full-Stack Web Development",
       "Details": "Become a full-stack developer with this comprehensive course.",
       "Price": "35000",
-      "Credit": "4 hr"
+      "Credit": 4 
     },
     {
       "Id": 8,
@@ -61,7 +61,7 @@
       "Course_Name": "Learn Cybersecurity Essentials",
       "Details": "Learn the essentials of cybersecurity and network security.",
       "Price": "19000",
-      "Credit": "3 hr"
+      "Credit": 3 
     },
     {
       "Id": 9,
@@ -69,7 +69,7 @@
       "Course_Name": "DevOps and Continuous Integration",
       "Details": "Master DevOps practices for continuous integration and delivery.",
       "Price": "11000",
-      "Credit": "2 hr"
+      "Credit": 5 
     }
   ]
   
