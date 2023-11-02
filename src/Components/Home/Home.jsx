@@ -68,8 +68,8 @@ const Home = () => {
                                         {course.Details}
                                     </small></p>
                                     <div className="flex justify-evenly">
-                                        <p className="font-medium text-base">$ Price: {course.Price}</p>
-                                        <p className="font-medium text-base">Credit:{course.Credit} hr</p>
+                                        <p className="font-normal text-base">$ Price: {course.Price}</p>
+                                        <p className="font-normal text-base">Credit:{course.Credit} hr</p>
                                     </div>
                                     <button
                                         onClick={() => handleSelectCourse(course)}
